@@ -14,7 +14,7 @@ class LoadingScreen extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 100),
               child: Image.asset(
-                'assets/images/splash-normal.gif',
+                'assets/images/cooking.gif',
                 width: 250,
               ),
             ),
