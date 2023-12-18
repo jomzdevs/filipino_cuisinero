@@ -38,6 +38,8 @@ class _ProfileState extends State<Profile> {
                     children: <Widget>[
                       CircleAvatar(
                         backgroundColor: Colors.grey,
+                        backgroundImage:
+                            AssetImage('assets/fonts/images/me.jpg'),
                         minRadius: 60.0,
                       ),
                     ],
@@ -78,7 +80,8 @@ class _ProfileState extends State<Profile> {
             children: <Widget>[
               ListTile(
                   onTap: () {},
-                  leading: const Icon(Icons.account_circle, color: Colors.black54),
+                  leading:
+                      const Icon(Icons.account_circle, color: Colors.black54),
                   title: Text('Account Settings',
                       style: TextStyle(
                           fontFamily: 'Noto',
